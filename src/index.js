@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ReactIdSwiper from './ReactIdSwiper';
 import * as serviceWorker from './serviceWorker';
+import Slider from './components/Slider';
 
-ReactDOM.render(<ReactIdSwiper />, document.getElementById('root'));
+ReactDOM.render(<Slider />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
